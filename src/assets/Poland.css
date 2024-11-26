@@ -1,0 +1,30 @@
+.poland_film {
+    position: relative;
+}
+
+.poland_bg {
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.gold_age {
+    height: 27px;
+    margin-right: auto;
+    color:#f5f5f1;
+}
+
+.Polonais {
+    color: red;
+    font-size: 30px;
+}
+
+.poland_content {
+    color:#f5f5f1;
+}
+
+.poland_desc {
+    color:#f5f5f1;
+}
