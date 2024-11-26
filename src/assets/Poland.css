@@ -4,9 +4,7 @@
 
 .poland_bg {
     position: absolute;
-    max-width: 100%;
-    left: 0;
-    top: 0;
+    background-size: auto;
     z-index: -1;
 }
 
