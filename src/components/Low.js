@@ -1,4 +1,32 @@
 import "../assets/Low.css";
+import a from "../assets/images/1-01.png";
+import b from "../assets/images/1-02.png";
+import c from "../assets/images/1-03.png";
+import d from "../assets/images/1-04.png";
+import e from "../assets/images/1-05.png";
+import f from "../assets/images/1-06.png";
+
+import g from "../assets/images/2-01.png";
+import h from "../assets/images/2-02.png";
+import i from "../assets/images/2-03.png";
+import j from "../assets/images/2-04.png";
+import k from "../assets/images/2-05.png";
+import l from "../assets/images/2-06.png";
+import m from "../assets/images/2-07.png";
+
+import polandbg from "../assets/images/bg-poland.png";
+import goldage from "../assets/images/L-age-d-or-du-cinema-polonais.svg";
+import polonais from "../assets/images/Polonais.svg";
+
+import arrow from "../assets/images/arrow.svg";
+
+import n from "../assets/images/3-01.png";
+import o from "../assets/images/3-02.png";
+import p from "../assets/images/3-03.png";
+import q from "../assets/images/3-04.png";
+import r from "../assets/images/3-05.png";
+import s from "../assets/images/3-06.png";
+import t from "../assets/images/3-07.png";
 
 function Low(){
     return(
@@ -6,35 +34,33 @@ function Low(){
 <section className="revoir">
   <h3>Revoir</h3>
   <div className="scrollable">
-    <img src="1-01.png" alt="" />
-    <img src="1-02.png" alt="" />
-    <img src="1-03.png" alt="" />
-    <img src="1-04.png" alt="" />
-    <img src="1-05.png" alt="" />
-    <img src="1-06.png" alt="" />
-    <img src="1-06.png" alt="" />
+    <img src={a} alt="" />
+    <img src={b} alt="" />
+    <img src={c} alt="" />
+    <img src={d} alt="" />
+    <img src={e} alt="" />
+    <img src={f} alt="" />
   </div>
 </section>
 
 <section className="tendances">
   <h3>Tendances</h3>
   <div className="scrollable">
-    <img src="2-01.png" alt="" />
-    <img src="2-02.png" alt="" />
-    <img src="2-03.png" alt="" />
-    <img src="2-04.png" alt="" />
-    <img src="2-05.png" alt="" />
-    <img src="2-06.png" alt="" />
-    <img src="2-06.png" alt="" />
-    <img src="2-07.png" alt="" />
+    <img src={g} alt="" />
+    <img src={h} alt="" />
+    <img src={i} alt="" />
+    <img src={j} alt="" />
+    <img src={k} alt="" />
+    <img src={l} alt="" />
+    <img src={m} alt="" />
   </div>
 </section>
 
 <section className="details">
-  <img src="bg-poland.png" className="details__bg" />
+  <img src={polandbg} className="details__bg" />
   <div className="details__content">
-    <img src="l-age-d-or-du-cinema-polonais.svg" height="38" />
-    <img className="details__title" src="polonais.svg" height="61" />
+    <img src={goldage} height="38" />
+    <img className="details__title" src={polonais} height="61" />
     <h3>Netflix Découverte - Juillet 2018</h3>
     <p className="details__description">
       Andrzej Wajda, Roman Polański, Agnieszka Holland, Paweł Pawlikowski…
@@ -68,16 +94,16 @@ function Low(){
 
 <section className="originaux">
   <h3>
-    Programmes originaux Netflix <img src="arrow.svg" class="arrow" />
+    Programmes originaux Netflix <img src={arrow} class="arrow" />
   </h3>
   <div className="scrollable">
-    <img src="3-01.png" alt="" />
-    <img src="3-02.png" alt="" />
-    <img src="3-04.png" alt="" />
-    <img src="3-05.png" alt="" />
-    <img src="3-06.png" alt="" />
-    <img src="3-07.png" alt="" />
-    <img src="3-03.png" alt="" />
+    <img src={n} alt="" />
+    <img src={o} alt="" />
+    <img src={p} alt="" />
+    <img src={q} alt="" />
+    <img src={r} alt="" />
+    <img src={s} alt="" />
+    <img src={t} alt="" />
   </div>
 </section>
 

@@ -51,4 +51,18 @@ nav,
   .avatar__dropdown {
     height: 6px;
   }
+
+  .dropdown__menu {
+    display: none; 
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+    z-index: 100;
+  }
+  
+  .dropdown__menu.active {
+    display: block; 
+  }
 }

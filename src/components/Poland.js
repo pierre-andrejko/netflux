@@ -21,4 +21,4 @@ function Poland(){
     );
 }
 
-export default Poland;
+// export default Poland;

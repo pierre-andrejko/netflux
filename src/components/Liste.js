@@ -16,4 +16,4 @@ function Liste({ title, items }) {
   );
 }
 
-export default Liste;
+// export default Liste;
